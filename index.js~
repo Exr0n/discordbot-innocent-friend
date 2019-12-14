@@ -16,6 +16,6 @@ client.on('message', (msg) => {
 			msg.channel.send('', { files: [paths.shrekk] }).catch(console.error);
 		}
 	}
-});
+}
 
 client.login(require('./secrets.json').token);
